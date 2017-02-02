@@ -41,7 +41,7 @@ boolean amICool = true
 
 Notice that the first word on the line in each example, the type of variable, is different. Also notice that in order to declare a text variable, you must surround your sequence of characters with quotation marks, so that the computer knows where it begins and ends. Recall that declaring a new variable requires a type of variabe, a name for the variable, and a value to assign to that variable, in that order.
 
-Some limitations of variable naming: it is not possible to start a variable name with a number or an underscore in Quorum. It is also not possible to put symbol characters in your variable names, such as !, @, #, $, %, and so on.
+Some limitations of variable naming: it is not possible to start a variable name with a number or an underscore in Quorum. It is also not possible to put most symbol characters in your variable names, such as !, @, #, $, and %.
 
 In order to print out the value that a variable contains, you can use the command "output", like so:
 

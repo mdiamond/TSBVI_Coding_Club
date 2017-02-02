@@ -1,0 +1,6 @@
+// Create a number variable called pi, assign it the value of pi to as many
+// decimal places as you know, then output it. Then, look up the value of pi on
+// the internet, and reassign it to the pi variable with at least 50 decimal
+// places. Finally, print it out again. Does the program print out all of the
+// digits that you assigned to the variable pi?
+
