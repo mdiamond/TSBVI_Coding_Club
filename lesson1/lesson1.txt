@@ -1,0 +1,16 @@
+1. What is your goal in being a part of the TSBVI coding club (make games, make apps, etc...)?
+
+2. Declare a variable of type number called n with value 100. What would you change if the value were 100.6? What would you change to instead store the string "cheese?"
+
+3. What is the value stored by totalPastries if the following code is run?
+integer numCookies = 5
+integer numBrownies = 12
+integer totalPastries = numCookies + numBrownies
+
+4. Write a series of steps that will determine what year you will turn 100.
+
+5. Write a series of steps that will determine the sum of all integers between 0 and 100.
+
+6. What is the value stored by totalFruits if the following code is run?
+integer totalFruits = 5
+totalFruits = totalFruits + 5
