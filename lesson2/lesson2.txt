@@ -1,0 +1,58 @@
+Lessson 2: Sodbeans and Variables
+
+Sodbeans...
+
+//todo
+
+Variables...
+
+Variables are how programmers can tell the computer to remember a piece of information. They allow the programmer to assign a name to some piece of information, and access or modify that information however they choose. Creating a variable in your program is called "declaring" a variable. Assigning a value to a variable is called "defining" a variable. In order to declare an define a variable, the computer needs three pieces of information. The computer needs to know the type of variable you want to declare, the name you want to give to that variable, and the the value that you want to assign to that variable. In Quorum, declaring an defining a variable looks like this:
+
+integer i = 100
+integer numPlanets = 8
+
+where "integer" is the type of variable, "i" is the name of the variable, and "100" is the value you want to assign to that variable. After this line of code is executed, the computer will have the integer value 100 stored in its memory, and you, the programmer, can access or modify the variable at any later point in the code. For example, to assign a new value to the variable "i," you can do the following:
+
+i = 200
+
+where "i" is the name of the variable, and "200" is the value you want to assign to it. Note that you don't have to specify the type of the variable in this situation because the computer already knows what type of variable "i" is. After this line of code is executed, the computer will have the integer value 200 stored in its memory, instead of the integer value 100.
+
+There are many different types of variables, and it is even possible to design your own variable types, but we won't cover that here. The four most fundamental variable types and their uses are as follows:
+
+integer: store an integer value like 1, 2, 3, 100, -100, 50000, and so on. It is not possible to store any number with decimal values in an integer variable.
+number: store a "floating point" number value like 1, 2, 3, 1.5, 50.431, -5000.4, and so on. It is not necessary to understand what a "floating point" number is, just that it is possible to store numbers with decimal values in a number variable.
+text: store a series of text characters, such as "string", "this is a string of text", "Hello, world.", "blah blah blah", and so on. Text variables are very useful when you want to print out a message for the user to read, request some kind of information from the user, and so on.
+boolean: store a true or false value. The only two possible values for a boolean variable to store are 1 or 0, yes, or no, true, or false. Boolean variables are useful for storing information about the current state of the program, for example, the result of statements like "are these two particular values equal to each other?" "Have we already gotten some particular piece of information rom the user?" and so on.
+
+Above is an example of how to create an integer variable. Following is an example of how to create a number variable:
+
+number n = 3.5
+number pi = 3.14
+
+how to create a text variable:
+
+text sentence = "this is a sentence"
+text anotherSentence = "this is another sentence!"
+
+and how to create a boolean variable:
+
+boolean isEqual = true
+boolean amICool = true
+
+Notice that the first word on the line in each example, the type of variable, is different. Also notice that in order to declare a text variable, you must surround your sequence of characters with quotation marks, so that the computer knows where it begins and ends. Recall that declaring a new variable requires a type of variabe, a name for the variable, and a value to assign to that variable, in that order.
+
+Some limitations of variable naming: it is not possible to start a variable name with a number or an underscore in Quorum. It is also not possible to put symbol characters in your variable names, such as !, @, #, $, %, and so on.
+
+In order to print out the value that a variable contains, you can use the command "output", like so:
+
+output sentence
+
+When the above code is executed, it will print out whatever value sentence contains to your console. For example, in the case of the sentence variable from the example above, it would print out "this is a sentence".
+
+It is also possible to get the computer to speak and tell you what is in the variable in English via audio. Simply replace the "output" command with "say", like so:
+
+say sentence
+
+When the above code is executed, it will say the value that sentence contains. Again, in the case of the sentence variable from the example above, it would say "this is a sentence".
+
+End of lesson 2.
